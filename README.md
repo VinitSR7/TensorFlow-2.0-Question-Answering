@@ -31,7 +31,8 @@
           <li> A short answer might be a sentence or phrase, or even in some cases a YES/NO. The short answers are always contained within / a subset of one of the plausible long answers. -  </li>
           <li> A given article can (and very often will) allow for both long and short answers, depending on the question
           </li>
-          <li> There is more detail about the data and what you're predicting on the <a href="https://github.com/google-research-datasets/natural-questions/blob/master/README.md">Github</a> page for the Natural Questions dataset.</li>
+          <li> There is more detail about the data and what you're predicting on the <a href="https://github.com/google-research-datasets/natural-questions/blob/master/README.md">Github</a> page for the Natural Questions dataset.
+          </li>
           
         </ol> 
       
