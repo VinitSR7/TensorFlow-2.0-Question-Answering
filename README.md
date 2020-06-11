@@ -21,10 +21,10 @@
         <ol>
           <li> 
             For each article + question pair, we must predict / select 
-              <ul>
+              <ol>
                 <li> long and </li>
                 <li> short </li>
-              </ul>
+              </ol>
             form answers to the question drawn directly from the article. - 
           </li>
           <li>  A long answer would be a longer section of text that answers the question - several sentences or a paragraph.  </li>
