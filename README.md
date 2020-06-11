@@ -10,7 +10,7 @@
 ## Data Overview
 <ol>
   <li> 
-    <h2> Data Format </h2> 
+    <h3> Data Format </h3> 
         <ol>
           	<li> 
           		Each sample contains a Wikipedia article, a related question, and the candidate long form answers. 
@@ -21,7 +21,7 @@
         </ol>
   </li>
   <li>	
-    <h2> What we have to Predict </h2>
+    <h3> What we have to Predict </h3>
         <ol>
           <li> 
             For each article + question pair, we must predict / select 
@@ -46,7 +46,7 @@
       
   </li>
   <li>
-    <h2> File Description </h2> 
+    <h3> File Description </h3> 
       <ol>
           <li>	simplified-nq-train.jsonl - the training data, in newline-delimited JSON format. </li>
           <li> simplified-nq-kaggle-test.jsonl - the test data, in newline-delimited JSON format. </li>
@@ -54,7 +54,7 @@
       </ol> 
   </li>  
   <li>
-  	<h2>Data Attributes</h2>
+  	<h3>Data Attributes</h3>
   	<ol>
   	<li>document_text - the text of the article in question (with some HTML tags to provide document structure). The text can be tokenized by splitting on whitespace.</li>
   	<li>question_text - the question to be answered</li>
@@ -82,7 +82,7 @@ Comming Soon
 ## References and concepts learnt
 <ol>
 	<li>
-		<h2>BERT:-</h2>
+		<h3>BERT:-</h3>
 			<ol>
 				<li><a href="https://arxiv.org/abs/1810.04805">[1810.04805] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a></li>
 				<li><a href="http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/">	A Visual Guide to Using BERT for the First Time</a></li>
@@ -96,7 +96,7 @@ Comming Soon
 			</ol>
 	</li>
 	<li>
-		<h2> ALBERT:-</h2>
+		<h3> ALBERT:-</h3>
 			<ol>
 				<li><a href="https://arxiv.org/abs/1909.11942"> [1909.11942] ALBERT: A Lite BERT for Self-supervised Learning of Language Representations</a></li>
 				<li> ALBERT is advancement over BERT, where researchers introduced three new concepts
@@ -127,7 +127,7 @@ Comming Soon
 				</li></ol>
 	</li>
 	<li>
-		 <h2>XLNet:-</h2>
+		 <h3>XLNet:-</h3>
 			<ol>
 				<li><a href="https://arxiv.org/abs/1906.08237"> [1906.08237] XLNet: Generalized Autoregressive Pretraining for Language Understanding</a></li>
 				<li>  XLNet was trained with over 130 GB of textual data and 512 TPU chips.</li>
@@ -137,7 +137,7 @@ Comming Soon
 			</ol>
 	</li>
 	<li>
-		<h2>RoBERTa:-</h2>
+		<h3>RoBERTa:-</h3>
 			<ol>
 				<li> RoBERTa uses 160 GB of text for pre-training, including 16GB of Books Corpus and English Wikipedia used in BERT.</li>
 				<li> Robustly optimized BERT approach RoBERTa, is a retraining of BERT with improved training methodology, 1000% more data and compute power. </li>
