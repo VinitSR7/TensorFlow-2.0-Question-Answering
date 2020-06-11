@@ -147,7 +147,7 @@
 			</ol>
 	</li> 
 	<li>
-		Comparison Between all the above models</li>
+		Comparison Between all the above models<br><img src="https://github.com/VinitSR7/TensorFlow-2.0-Question-Answering-/blob/master/PDF/Picture1.jpg?raw=true"></li>
 	<li>
 		Hugging Face Transformers for Question Answering
 		<ol>
