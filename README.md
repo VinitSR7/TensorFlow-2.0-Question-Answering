@@ -83,7 +83,7 @@
 # References and concepts learnt
 <ol>
 	<li>
-		BERT:-
+		<h2>BERT:-</h2>
 			<ol>
 				<li><a href="https://arxiv.org/abs/1810.04805">[1810.04805] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a></li>
 				<li><a href="http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/">	A Visual Guide to Using BERT for the First Time</a></li>
@@ -97,7 +97,7 @@
 			</ol>
 	</li>
 	<li>
-		 ALBERT:-
+		<h2> ALBERT:-</h2>
 			<ol>
 				<li><a href="https://arxiv.org/abs/1909.11942"> [1909.11942] ALBERT: A Lite BERT for Self-supervised Learning of Language Representations</a></li>
 				<li> ALBERT is advancement over BERT, where researchers introduced three new concepts
@@ -128,7 +128,7 @@
 				</li></ol>
 	</li>
 	<li>
-		 XLNet:-
+		 <h2>XLNet:-</h2>
 			<ol>
 				<li><a href="https://arxiv.org/abs/1906.08237"> [1906.08237] XLNet: Generalized Autoregressive Pretraining for Language Understanding</a></li>
 				<li>  XLNet was trained with over 130 GB of textual data and 512 TPU chips.</li>
@@ -138,7 +138,7 @@
 			</ol>
 	</li>
 	<li>
-		RoBERTa:-
+		<h2>RoBERTa:-</h2>
 			<ol>
 				<li> RoBERTa uses 160 GB of text for pre-training, including 16GB of Books Corpus and English Wikipedia used in BERT.</li>
 				<li> Robustly optimized BERT approach RoBERTa, is a retraining of BERT with improved training methodology, 1000% more data and compute power. </li>
