@@ -143,7 +143,8 @@
 				<li> RoBERTa uses 160 GB of text for pre-training, including 16GB of Books Corpus and English Wikipedia used in BERT.</li>
 				<li> Robustly optimized BERT approach RoBERTa, is a retraining of BERT with improved training methodology, 1000% more data and compute power. </li>
 				<li> RoBERTa removes the Next Sentence Prediction (NSP) task from BERT’s pre-training and introduces dynamic masking so that the masked token changes during the training epochs.</li>
-				<li> As a result, RoBERTa outperforms both BERT and XLNet on GLUE benchmark results.</li></ol>
+				<li> As a result, RoBERTa outperforms both BERT and XLNet on GLUE benchmark results.</li>
+			</ol>
 	</li>
 	
 	<li>
