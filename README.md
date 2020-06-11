@@ -42,8 +42,7 @@
           </li>
           <li> 
           	There is more detail about the data and what you're predicting on the <a href="https://github.com/google-research-datasets/natural-questions/blob/master/README.md">Github </a> page for the Natural Questions dataset.
-          </li></ol>
-     
+          </li></ol> 
       
   </li>
   <li>
@@ -74,8 +73,12 @@
 	<li> Refer <a href = "https://www.kaggle.com/c/tensorflow2-question-answering/overview/evaluation">here</a> for more details </li>
 
 </ol>
-# Modeling
-Updating Soon
+
+
+
+
+
+
 
 # References and concepts learnt
 <ol>
@@ -144,7 +147,7 @@ Updating Soon
 	</li>
 	
 	<li>
-		Comparison Between all the above models.<br>
+		Comparison Between all the above models. 
 		<img src=""> </img>
 	</li>
 	<li>
