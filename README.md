@@ -16,6 +16,27 @@
           <li> The training examples also provide the correct long and short form answer or answers for the sample, if any exist.</li>
         </ol>
   </li>
+	<li>	
+	    <h2> What we have to Predict </h2>
+		<ol>
+		  <li> 
+		    For each article + question pair, we must predict / select 
+		      <ol>
+			<li> long and </li>
+			<li> short </li>
+		      </ol>
+		    form answers to the question drawn directly from the article. - 
+		  </li>
+		  <li>  A long answer would be a longer section of text that answers the question - several sentences or a paragraph.  </li>
+		  <li> A short answer might be a sentence or phrase, or even in some cases a YES/NO. The short answers are always contained within / a subset of one of the plausible long answers. -  </li>
+		  <li> A given article can (and very often will) allow for both long and short answers, depending on the question
+		  </li>
+		  <li> There is more detail about the data and what you're predicting on the <a href="https://github.com/google-research-datasets/natural-questions/blob/master/README.md">Github</a> page for the Natural Questions dataset.</li>
+
+		</ol> 
+
+	  </li>	
+	
 </ol>
 
 # Evaluation
