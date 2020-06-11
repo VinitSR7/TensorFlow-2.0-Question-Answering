@@ -147,10 +147,7 @@
 			</ol>
 	</li>
 	
-	<li>
-		Comparison Between all the above models. 
-		<img src=""> </img>
-	</li>
+ 
 	<li>
 		Hugging Face Transformers for Question Answering
 		<ol>
