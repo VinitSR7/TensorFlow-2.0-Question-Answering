@@ -7,8 +7,16 @@
   <li>A <a href="https://ai.google.com/research/NaturalQuestions/visualization">visualization of examples </a>shows long and—where available—short answers.</li>
 </ol>
     
-# Data OverView
-
+# Data Overview
+<ol>
+  <li> 
+    <h2> Data Format </h2> 
+        <ol>
+          <li> Each sample contains a Wikipedia article, a related question, and the candidate long form answers. </li>
+          <li> The training examples also provide the correct long and short form answer or answers for the sample, if any exist.</li>
+        </ol>
+  </li>
+</ol>
 
 # Evaluation
 <ol>
