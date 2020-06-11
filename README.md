@@ -145,9 +145,11 @@
 				<li> RoBERTa removes the Next Sentence Prediction (NSP) task from BERT’s pre-training and introduces dynamic masking so that the masked token changes during the training epochs.</li>
 				<li> As a result, RoBERTa outperforms both BERT and XLNet on GLUE benchmark results.</li>
 			</ol>
+	</li> 
+	<li>
+		Comparison Between all the above models. 
+		
 	</li>
-	
- 
 	<li>
 		Hugging Face Transformers for Question Answering
 		<ol>
