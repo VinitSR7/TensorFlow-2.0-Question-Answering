@@ -56,15 +56,12 @@
 
   <li>
   	<h2>Data Attributes</h2>
-  		<li> document_text - the text of the article in question (with some HTML tags to provide document structure). The text can be tokenized by splitting on whitespace.</li>
-  		<li> question_text - the question to be answered</li>
-  		<li> long_answer_candidates - a JSON array containing all of the plausible long answers.</li>
-		<li>iv.	annotations - a JSON array containing all of the correct long + short answers. Only provided for train.</li>
-		<li> document_url - the URL for the full article. Provided for informational purposes only. This is NOT the simplified version of the article so indices from this cannot be used directly. The content may also no longer match the html used to generate document_text. Only provided for train.</li>
-		<li> example_id - unique ID for the sample.</li>
-
-  </li>
-
+  	<li>document_text - the text of the article in question (with some HTML tags to provide document structure). The text can be tokenized by splitting on whitespace.</li>
+  	<li>question_text - the question to be answered</li>
+  	<li>long_answer_candidates - a JSON array containing all of the plausible long answers.</li>
+	<li>annotations - a JSON array containing all of the correct long + short answers. Only provided for train.</li>
+	<li>document_url - the URL for the full article. Provided for informational purposes only. This is NOT the simplified version of the article so indices from this cannot be used directly. The content may also no longer match the html used to generate document_text. Only provided for train.</li>
+	<li>example_id - unique ID for the sample.</li></li>
 </ol>
 
 # Evaluation
