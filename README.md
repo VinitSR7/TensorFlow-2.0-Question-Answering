@@ -8,15 +8,13 @@
 </ol>
     
 # Data OverView
-<ol>
-  <li> 
+ 
     <h2> Data Format </h2> 
         <ol>
           <li> Each sample contains a Wikipedia article, a related question, and the candidate long form answers. </li>
           <li> The training examples also provide the correct long and short form answer or answers for the sample, if any exist.</li>
         </ol>
-  </li>
-  <li>	
+  
     <h2> What we have to Predict </h2>
         <ol>
           <li> 
@@ -33,18 +31,16 @@
           </li>
           <li> There is more detail about the data and what you're predicting on the <a href="https://github.com/google-research-datasets/natural-questions/blob/master/README.md">Github</a> page for the Natural Questions dataset.</li>
           
+        </ol> 
       
-  </li>
-  <li>
+  
     <h2> File Description </h2> 
       <ol>
           <li>	simplified-nq-train.jsonl - the training data, in newline-delimited JSON format. </li>
           <li> simplified-nq-kaggle-test.jsonl - the test data, in newline-delimited JSON format. </li>
           <li> sample_submission.csv - a sample submission file in the correct format</li>
       </ol> 
-  </li>
-
-  <li>
+  
   	<h2>Data Attributes</h2>
   		<li> document_text - the text of the article in question (with some HTML tags to provide document structure). The text can be tokenized by splitting on whitespace.</li>
   		<li> question_text - the question to be answered</li>
@@ -53,9 +49,7 @@
 		<li> document_url - the URL for the full article. Provided for informational purposes only. This is NOT the simplified version of the article so indices from this cannot be used directly. The content may also no longer match the html used to generate document_text. Only provided for train.</li>
 		<li> example_id - unique ID for the sample.</li>
 
-  </li>
-
-</ol>
+  
 
 # Evaluation
 <ol>
