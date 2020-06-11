@@ -74,3 +74,90 @@
 	<li> Refer <a href = "https://www.kaggle.com/c/tensorflow2-question-answering/overview/evaluation">here</a> for more details </li>
 
 </ol>
+# Modeling
+Updating Soon
+
+# References and concepts learnt
+<ol>
+	<li>
+		BERT:-
+			<ol>
+				<li><a href="https://arxiv.org/abs/1810.04805">[1810.04805] BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding</a></li>
+				<li><a href="http://jalammar.github.io/a-visual-guide-to-using-bert-for-the-first-time/">	A Visual Guide to Using BERT for the First Time</a></li>
+				<li>BERT is a bi-directional transformer.</li>
+				<li> BERT works in two steps, First, it uses a large amount of unlabeled data to learn a language representation in an unsupervised fashion called pre-training.</li>
+				<li> Then, the pre-trained model can be fine-tuned in a supervised fashion using a small amount of labeled trained data to perform various supervised tasks.</li>
+				<li> Bert pre-training is done by 2 tasks called Masked Language Model(MLM) and Next Sentence Prediction (NSP). </li>
+				<li> MLM makes it possible to perform bidirectional learning from the text.  The MLM pre-training task converts the text into tokens and uses the token representation as an input and output for the training. A random subset of the tokens (15%) are masked, i.e. hidden during the training, and the objective function is to predict the correct identities of the tokens.	</li>
+				<li> The NSP task allows BERT to learn relationships between sentences by predicting if the next sentence in a pair is the true next or not.</li>
+				<li> BERT was trained using 3.3 Billion words total with 2.5B from Wikipedia and 0.8B from BooksCorpus.</li>
+			</ol>
+	</li>
+	<li>
+		 ALBERT:-
+			<ol>
+				<li><a href="https://arxiv.org/abs/1909.11942"> [1909.11942] ALBERT: A Lite BERT for Self-supervised Learning of Language Representations</a></li>
+				<li> ALBERT is advancement over BERT, where researchers introduced three new concepts
+					<ol>
+						<li>
+							<b> Factorized embedding parameterization: </b>
+							<ol>
+								<li> The model isolates the size of the hidden layers from the size of vocabulary embeddings by projecting one-hot vectors into a lower dimensional embeddings space and then to the hidden space.</li>
+							</ol>
+						</li>
+						<li>
+							<b>	Cross-layer parameter sharing: </b>
+							<ol>
+								<li> It shares all parameters across layers to prevent the parameters from growing along with the depth of the network.</li>
+								<li> It results in 18 times less parameters compared to BERT-large.</li>
+							</ol>
+						</li>
+						<li>
+							<b>  Inter-sentence coherence loss: </b>
+							<ol>
+								<li> In case of pre-training, instead of using next sentence prediction technique (NSP), it uses sentence-order prediction(SOP) loss, which enable more robust multi-sentence encoding tasks</li>
+							</ol>
+						</li>
+						<li>
+							 For pretraining baseline models, researchers used the BOOKCORPUS and English Wikipedia, which together contain around 16GB of uncompressed text.
+						</li>
+					</ol>
+				</li></ol>
+	</li>
+	<li>
+		 XLNet:-
+			<ol>
+				<li><a href="https://arxiv.org/abs/1906.08237"> [1906.08237] XLNet: Generalized Autoregressive Pretraining for Language Understanding</a></li>
+				<li>  XLNet was trained with over 130 GB of textual data and 512 TPU chips.</li>
+				<li> XLNet is a large bidirectional transformer that is an advancement in training methodology from BERT, trained with larger data to achieve better performance than BERT on 20 language tasks.</li>
+				<li> XLNet introduces the concept of permutation language modeling, i.e where all tokens are predicted but in random order.  This helps the model to learn bidirectional relationships and therefore better handles dependencies and relations between words</li>
+				<li> Base architecture for XLNet is Transformer XL, which showed good performance even in the absence of permutation based training. </li>
+			</ol>
+	</li>
+	<li>
+		RoBERTa:-
+			<ol>
+				<li> RoBERTa uses 160 GB of text for pre-training, including 16GB of Books Corpus and English Wikipedia used in BERT.</li>
+				<li> Robustly optimized BERT approach RoBERTa, is a retraining of BERT with improved training methodology, 1000% more data and compute power. </li>
+				<li> RoBERTa removes the Next Sentence Prediction (NSP) task from BERT’s pre-training and introduces dynamic masking so that the masked token changes during the training epochs.</li>
+				<li> As a result, RoBERTa outperforms both BERT and XLNet on GLUE benchmark results.</li></ol>
+	</li>
+	
+	<li>
+		Comparison Between all the above models.<br>
+		<img src=""> </img>
+	</li>
+	<li>
+		Hugging Face Transformers for Question Answering
+		<ol>
+			<li>
+				<a href="https://www.appliedaicourse.com/lecture/11/applied-machine-learning-online-course/4216/code-walkthrough-bert-questionanswering-system/8/module-8-neural-networks-computer-vision-and-deep-learning">Bert Fine Tuining Code Walk Through</a>
+			</li>
+			<li>
+				<a href="https://huggingface.co/transformers/usage.html">Hugging face Transformer Usage</a>
+			</li>
+			<li><a href="https://www.youtube.com/watch?v=XaQ0CBlQ4cY"> Text Extraction From a Corpus Using BERT (AKA Question Answering)</a></li>
+		</ol> 
+	</li>
+</ol>
+ 
